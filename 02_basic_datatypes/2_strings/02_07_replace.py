@@ -7,4 +7,16 @@ Symbol input: #
 Result: #ore python progra##ing please
 
 '''
+# get input sentence
+sentence=input("please enter a sentence: ")
+# get imput symbol
+symbol=input("please enter a symbol: ")
+# get first letter
+first = sentence[0]
+# replace letter w symbol using replace method
+sentence.replace(first,symbol)
+print(sentence.replace(first,symbol))
+
+
+
 

@@ -7,3 +7,10 @@ Letter input: o
 Result: 4
 
 '''
+#enter a sentence
+sentence=input("please enter a sentence: ")
+#enter a word
+letter=input("please enter a letter: ")
+#occurance of a word using count method
+count = sentence.count(letter)
+print ("Result :  " + str(count))
