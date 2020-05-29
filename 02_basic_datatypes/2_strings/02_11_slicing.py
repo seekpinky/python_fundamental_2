@@ -17,3 +17,9 @@ rest=word[1:]
 final=rest+word[first]+"ay"
 
 print(final)
+
+users = {'mary': 22, 'caroline': 26, 'harry': 20}
+for k in users.keys():
+    print(k)
+for v in users.values():
+    print(v)

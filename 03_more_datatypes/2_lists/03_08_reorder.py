@@ -7,3 +7,22 @@ Example input:  1,2,3,4,5,6,7,8,9,10
 Example output: 2,4,6,8,10,9,7,5,3,1
 
 '''
+input_string = input("Enter a list numbers or elements separated by space: ")
+input_list = input_string.split()
+count = 0
+new_list = ''
+for i in range(input_list):
+    if i % 2 == 0:
+        print("odd")
+    else:
+        print("even")
+
+
+
+
+
+
+
+
+
+
