@@ -10,12 +10,28 @@ Example output: 2,4,6,8,10,9,7,5,3,1
 input_string = input("Enter a list numbers or elements separated by space: ")
 input_list = input_string.split()
 count = 0
-new_list = ''
-for i in range(input_list):
-    if i % 2 == 0:
-        print("odd")
+new_list = []
+odd_list = []
+even_list = []
+
+
+for i in input_list:
+    i = int(i)
+    if (i % 2 == 0):
+        even_list.append(i)
     else:
-        print("even")
+        odd_list.append(i)
+print(odd_list)
+print(type(odd_list))
+print(even_list)
+odd_list.reverse()
+# even_list = even_list.extend(odd_list)
+# new_list = even_list.extend(odd_list) ( cant use a new list for the product)
+even_list.extend(odd_list)
+
+print(even_list)
+
+
 
 
 

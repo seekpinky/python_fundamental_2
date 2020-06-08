@@ -11,6 +11,7 @@ come back to this task after you have learned about loops)
 '''
 input_string = input("Enter a list of 10 numbers or elements separated by space: ")
 input_list = input_string.split()
+print(type(input_list))
 max = 0
 for i in input_list:
     if int(i) > max:

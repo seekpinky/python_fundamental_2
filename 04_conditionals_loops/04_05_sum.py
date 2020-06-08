@@ -7,3 +7,11 @@ The output of your calculation should therefore look like this:
 
 The sum is: 5050
 '''
+lower_num = int(input("please enter the lower bound of the sequence :"))
+upper_num = int(input("please enter the upper bound of the sequence :"))
+total_num = 0
+for i in range(lower_num,upper_num+1,1):
+    total_num += i
+
+
+print(total_num)
